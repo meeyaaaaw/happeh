@@ -1,5 +1,1 @@
-
-
-<div align="center">
-  ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF¢er=true&vCenter=true&width=435&lines=Tang+Ina+Mo+po.;Open+Source+Contributor;Building+things+that+matter)
-</div>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=58A6FF¢er=true&vCenter=true&width=435&lines=Full+Stack+Developer;Open+Source+Contributor;Building+things+that+matter)](https://git.io/typing-svg)
