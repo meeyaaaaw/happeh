@@ -451,10 +451,10 @@
 
   /* ================= Countdown ================= */
   function nextNewYear() {
-    return new Date(new Date().getFullYear() + 0, 11, 1, 0, 0, 0, 0);
+    return new Date(new Date().getFullYear() + 0, 12, 1, 0, 0, 0, 0);
   }
   var target = nextNewYear();
-  $("target").textContent = "Hanggang " + target.getFullYear() + " malapit na baby.";
+  $("target").textContent = "Hanggang November," + target.getFullYear() + " malapit na baby.";
   function pad(n) { return n < 10 ? "0" + n : String(n); }
   function tick() {
     var diff = target - new Date();
