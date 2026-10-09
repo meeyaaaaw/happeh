@@ -454,7 +454,7 @@
     return new Date(new Date().getFullYear() + 0, 12, 1, 0, 0, 0, 0);
   }
   var target = nextNewYear();
-  $("target").textContent = "Hanggang November," + target.getFullYear() + " malapit na baby.";
+  $("target").textContent = "Hanggang November," + " na lang malapit na baby.";
   function pad(n) { return n < 10 ? "0" + n : String(n); }
   function tick() {
     var diff = target - new Date();
