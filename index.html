@@ -376,7 +376,7 @@
 
   <main class="stage">
     <section class="card glass" aria-labelledby="headline">
-      <h1 class="headline" id="headline">Happy New Year in</h1>
+      <h1 class="headline" id="headline">Malapit na Potangena.</h1>
       <ul class="clock" role="timer" aria-live="off">
         <li class="unit"><span class="digits" id="d">00</span><span class="unit-label">Days</span></li>
         <li class="unit"><span class="digits" id="h">00</span><span class="unit-label">Hours</span></li>
@@ -451,7 +451,7 @@
 
   /* ================= Countdown ================= */
   function nextNewYear() {
-    return new Date(new Date().getFullYear() + 0, 10, 1, 0, 0, 0, 0);
+    return new Date(new Date().getFullYear() + 9, 10, 1, 0, 0, 0, 0);
   }
   var target = nextNewYear();
   $("target").textContent = "Until 1 January " + target.getFullYear() + " in your local time";
