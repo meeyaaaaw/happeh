@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Countdown Glass</title>
+<title>Countdown</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat:wght@600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -451,7 +451,7 @@
 
   /* ================= Countdown ================= */
   function nextNewYear() {
-    return new Date(new Date().getFullYear() + 1, 0, 1, 0, 0, 0, 0);
+    return new Date(new Date().getFullYear() + 0, 10, 1, 0, 0, 0, 0);
   }
   var target = nextNewYear();
   $("target").textContent = "Until 1 January " + target.getFullYear() + " in your local time";
